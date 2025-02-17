@@ -46,3 +46,14 @@ p {
 .info-section .text p {
   margin-bottom: 10px;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .hero-section, .info-section {
+    flex-direction: column;
+  }
+
+  .hero-section img, .info-section img {
+    margin-top: 20px;
+  }
+}
