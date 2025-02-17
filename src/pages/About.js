@@ -17,7 +17,7 @@ const About = () => (
             <img src={image1} alt="Team introduction" />
         </section>
 
-        <section class="info-section">
+        <section class="hero-section">
             <div class="text">
                 <h2>Our Values</h2>
                 <p>At Burrow Space, we believe in innovation, transparency, and customer-centricity. These values guide every decision we make and every product we create. We are committed to building trust and delivering excellence in everything we do.</p>
@@ -26,7 +26,7 @@ const About = () => (
             <img src={image2} alt="Our values" />
         </section>
 
-        <section class="info-section">
+        <section class="hero-section">
             <div class="text">
                 <h2>Our Technology</h2>
                 <p>We leverage the latest advancements in cloud computing, AI, and data analytics to create systems that are not only robust but also intuitive. From real-time communication platforms to scalable infrastructure solutions, Burrow Space is at the forefront of technological innovation.</p>
@@ -35,7 +35,7 @@ const About = () => (
             <img src={tech} alt="Our technology" />
         </section>
 
-        <section class="info-section">
+        <section class="hero-section">
             <div class="text">
                 <h2>Our Commitment</h2>
                 <p>Burrow Space is dedicated to creating lasting partnerships with our clients. We take the time to understand their unique needs and challenges, offering tailored solutions that deliver measurable results.</p>
