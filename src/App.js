@@ -8,15 +8,9 @@ import ContactUs from './pages/ContactUs';
 import Career from './pages/Career';
 import './App.css';
 
-const theme = {
-  primary: '#000000',
-  secondary: '#FFFFFF',
-  accent: '#000000',
-  text: '#FFFFFF'
-};
 
 const App = () => {
-  const [data, setData] = useState(null);
+  const [, setData] = useState(null);
 
   useEffect(() => {
     fetch('/api/data')
