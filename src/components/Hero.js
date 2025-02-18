@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import About from '../pages/About';
+
 
 const Hero = () => (
   <section className="hero">

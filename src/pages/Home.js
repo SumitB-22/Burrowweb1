@@ -1,9 +1,8 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import './Home.css';
-import introVideo from '../assets/intro.mp4'; 
 import inva from '../assets/inva.png';
-import About from './About';
+
 
 const Home = () => (
   <main>

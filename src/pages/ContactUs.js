@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import ContactSection from '../components/ContactSection';
 import man from '../assets/man.png';
 import manager from '../assets/manager.png';
 import boy from '../assets/boy.png';
@@ -19,7 +18,7 @@ const ContactUs = () => (
     </section>
 
     <section class="contact-section">
-            <img src={man} alt="Person 1" />
+            <img src={manager} alt="Person 1" />
             <div class="details">
                 <h3>Tejasvhi Singh</h3>
                 <p>Email: Tejayashsingh@gmail.com</p>
@@ -28,7 +27,7 @@ const ContactUs = () => (
     </section>
 
     <section class="contact-section">
-            <img src={man} alt="Person 1" />
+            <img src={boy} alt="Person 1" />
             <div class="details">
                 <h3>Prince Pratap</h3>
                 <p>Email: princepratapism@gmail.com</p>

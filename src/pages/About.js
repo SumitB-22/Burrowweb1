@@ -1,6 +1,4 @@
 import React from 'react';
-import AboutSection from '../components/AboutSection';
-import InfoSection from '../components/InfoSection';
 import image1 from '../assets/image1.png';
 import image2 from '../assets/image2.jpeg';
 import tech from '../assets/tech.jpg';
