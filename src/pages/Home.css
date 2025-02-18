@@ -1,13 +1,14 @@
 .trusted-section {
   padding: 40px 20px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #333; /* Similar background color to the rest of the page */
+  color: #fff; /* White text color */
 }
 
 .trusted-section h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff; /* White text color */
 }
 
 .company {
@@ -24,7 +25,7 @@
 
 .company p {
   font-size: 1em;
-  color: #555;
+  color: #fff; /* White text color */
 }
 
 .video-section {
