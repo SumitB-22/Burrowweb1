@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import ContactSection from '../components/ContactSection';
 import man from '../assets/man.png';
 import manager from '../assets/manager.png';
 import boy from '../assets/boy.png';
@@ -16,12 +15,24 @@ const ContactUs = () => (
                 <p>Email: aryangoyalbusiness@gmail.com</p>
                 <p>Phone: +91 6396667308</p>
             </div>
-        </section>
-    <section className="contact-section">
-      <ContactSection name="Tejasvhi Singh" email= "Tejayashsingh@gmail.com" phone="+91 6394468891" imgSrc={manager} />
     </section>
-    <section className="contact-section">
-      <ContactSection name="Prince Pratap" email="princepratapism@gmail.com" phone="+91 7668629313" imgSrc={boy} />
+
+    <section class="contact-section">
+            <img src={manager} alt="Person 1" />
+            <div class="details">
+                <h3>Tejasvhi Singh</h3>
+                <p>Email: Tejayashsingh@gmail.com</p>
+                <p>Phone: +91 6394468891</p>
+            </div>
+    </section>
+
+    <section class="contact-section">
+            <img src={boy} alt="Person 1" />
+            <div class="details">
+                <h3>Prince Pratap</h3>
+                <p>Email: princepratapism@gmail.com</p>
+                <p>Phone: +91 7668629313</p>
+            </div>
     </section>
   </main>
 );
