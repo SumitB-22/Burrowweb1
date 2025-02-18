@@ -28,7 +28,7 @@
 }
 
 .video-section {
-  padding: 40px 20px;
+  padding: 0;
   text-align: center;
   background-color: #f0f0f0;
 }
@@ -40,6 +40,7 @@
 }
 
 .video-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +48,6 @@
 
 .video-container video {
   width: 100%;
-  max-width: 100%;
   height: auto;
 }
 

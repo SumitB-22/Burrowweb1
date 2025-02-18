@@ -20,7 +20,6 @@ const Home = () => (
       <h2>Trusted and Mentored By</h2>
       <div className="company">
         <img src={inva} alt="Company Name" />
-        
       </div>
     </section>
   </main>
